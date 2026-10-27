@@ -8,7 +8,6 @@ services:
     restart: unless-stopped
     environment:
       PGHOST: db
-      NESHAN_API_KEY: ${NESHAN_API_KEY:-}
       PGPORT: 5432
       PGDATABASE: ${POSTGRES_DB:-use_food_first}
       PGUSER: ${POSTGRES_USER:-app}
