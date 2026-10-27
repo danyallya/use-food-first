@@ -7,6 +7,12 @@ services:
       network: offline-dev-vault_vault
     restart: unless-stopped
     env_file: .env
+    environment:
+      PGHOST: db
+      PGPORT: 5432
+      PGDATABASE: ${POSTGRES_DB:-use_food_first}
+      PGUSER: ${POSTGRES_USER:-app}
+      PGPASSWORD: ${POSTGRES_PASSWORD:?Set_POSTGRES_PASSWORD_in_.env}
     ports:
       - ${APP_PORT:-3107}:3000
     depends_on:

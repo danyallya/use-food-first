@@ -8,4 +8,11 @@
 
 **Next:** Add an item with quantity, date type and discard decision.
 
-**Delivery:** Public repository created and foundation pushed to main. API check confirms public visibility. Docker daemon and local npm-cache connectivity still need a live check.
+**Delivery:** Public repository created and foundation pushed to main. The latest handoff is committed locally; push it when the cache/Docker blocker is cleared.
+
+
+## Environment check — 2026-10-27
+
+**Update:** Compose now passes PostgreSQL host, database, user and password as separate environment fields so local password characters do not break a connection URL. Runtime verification is pending Docker access.
+
+Docker service com.docker.service is stopped; Start-Service cannot open it with current permissions. The npm cache registry at localhost:4873 is unavailable. Offline lockfile generation returned ETARGET for eslint-config-next@16.4.3 from the host cache. No dependency install, CI, tests or production build ran.
