@@ -8,4 +8,4 @@
 
 ## Manual acceptance
 
-Install the PWA, load once online, disconnect and confirm only public shell is available. Test keyboard, screen-reader labels, zoom, narrow screens, locale, database recovery and privacy-safe logs. The current starter test checks metadata only; product rules are not tested until TASK.md passes.
+Install the PWA, load once online, disconnect and confirm only public shell is available. Test keyboard, screen-reader labels, zoom, narrow screens, locale, database recovery and privacy-safe logs. FOOD-FIRST-001/002 add unit tests for food-item validation, calendar dates, lifecycle and serialization. Browser save/reload, keyboard-only and screen-reader acceptance remain pending.
