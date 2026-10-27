@@ -1,0 +1,10 @@
+.next/
+node_modules/
+out/
+coverage/
+.env
+.env.*
+!.env.example
+.npmrc
+*.log
+.DS_Store

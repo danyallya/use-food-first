@@ -1,0 +1,1 @@
+export const projectInfo = { slug:"use-food-first", title:"Use Food First", summary:"A household food list that helps people use ingredients before they expire.", scope:"food-first", locale:"en", direction:"ltr", firstTask:"Add an item with quantity, date type and discard decision.", entity:"food-items" } as const;
