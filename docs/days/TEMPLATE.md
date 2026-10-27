@@ -12,3 +12,7 @@
 - Next concrete action:
 
 Commit this file with the turn's work. Completing a daily visit does not complete the product.
+
+<!-- governance-v1 -->
+
+Review and issues: follow docs/REVIEW_AND_ISSUES.md. The daily report must include previous issue links, next actions, reviewed SHA, review kind, findings and actual GitHub review/comment URLs. In the control repository, run prepare-governance.ps1 after begin and complete its evidence before record.

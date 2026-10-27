@@ -15,3 +15,7 @@ Follow BRANCHING.md, including day/task identity in task branch names. Do not pu
 Before committing, create docs/days/day-NNN.md from TEMPLATE.md and document the change, acceptance status, check results, blocker/next-day needs and next action. Commit it with the work. Capture the final commit SHA and PR URL in the central ledger after push.
 
 If blocked, leave the task open. Do independent useful work, document the precise failure and required action, record the visit with its true outcome and continue to the next numbered product. This protocol does not automatically start day 1 or the following day.
+
+<!-- governance-v1 -->
+
+Review and issues: follow docs/REVIEW_AND_ISSUES.md. The daily report must include previous issue links, next actions, reviewed SHA, review kind, findings and actual GitHub review/comment URLs. In the control repository, run prepare-governance.ps1 after begin and complete its evidence before record.

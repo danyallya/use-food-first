@@ -16,3 +16,7 @@ This is an independent product repository. Preserve its domain-specific workflow
 ## Turn in the full daily round
 
 Read docs/DAILY.md before work. This is project 7 of 30; work only on this product and continue to the next after recording its handoff. Document blockers without marking unfinished tasks complete. Store the local daily report in docs/days/day-NNN.md and final SHA/PR in the central day ledger. Start or resume days only from the control state and user announcement.
+
+<!-- governance-v1 -->
+
+Review and issues: follow docs/REVIEW_AND_ISSUES.md. The daily report must include previous issue links, next actions, reviewed SHA, review kind, findings and actual GitHub review/comment URLs. In the control repository, run prepare-governance.ps1 after begin and complete its evidence before record.
