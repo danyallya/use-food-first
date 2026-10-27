@@ -7,4 +7,5 @@ coverage/
 !.env.example
 .npmrc
 *.log
+*.tsbuildinfo
 .DS_Store
