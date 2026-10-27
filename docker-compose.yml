@@ -6,9 +6,9 @@ services:
         NPM_REGISTRY: ${NPM_REGISTRY:-http://registry:4873/}
       network: offline-dev-vault_vault
     restart: unless-stopped
-    env_file: .env
     environment:
       PGHOST: db
+      NESHAN_API_KEY: ${NESHAN_API_KEY:-}
       PGPORT: 5432
       PGDATABASE: ${POSTGRES_DB:-use_food_first}
       PGUSER: ${POSTGRES_USER:-app}

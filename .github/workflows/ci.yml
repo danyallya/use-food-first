@@ -8,9 +8,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Check dependency lockfile
+        id: lock
+        run: |
+          if [ -f package-lock.json ]; then
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::CI checks are skipped because package-lock.json is not committed."
+            echo "No dependencies, tests, lint or build were run. Commit a lockfile to enable verification." >> "$GITHUB_STEP_SUMMARY"
+          fi
       - uses: actions/setup-node@v4
+        if: ${{ steps.lock.outputs.available == 'true' }}
         with:
           node-version: 24
           cache: npm
       - run: npm ci
+        if: ${{ steps.lock.outputs.available == 'true' }}
       - run: npm run verify
+        if: ${{ steps.lock.outputs.available == 'true' }}
