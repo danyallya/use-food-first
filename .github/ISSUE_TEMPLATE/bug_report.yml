@@ -1,0 +1,21 @@
+name: Bug report
+description: A reproducible defect with impact and acceptance criteria
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction, expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact, proposed P1/P2/P3 priority and sanitized evidence
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria and related issue or PR
+    validations:
+      required: true

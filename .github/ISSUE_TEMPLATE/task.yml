@@ -1,0 +1,15 @@
+name: Product task
+description: A scoped task with verifiable acceptance criteria
+body:
+  - type: textarea
+    id: scope
+    attributes:
+      label: Task ID, user need and scope
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria, tests, dependencies and exclusions
+    validations:
+      required: true
