@@ -1,13 +1,17 @@
-## User outcome
+## Change and linked issues
 
-## Acceptance criteria
+Refs # — task ID and acceptance criteria:
 
-## Data, migration and offline impact
+## Review and verification
 
-## Privacy and accessibility review
+- Reviewed final SHA and scope:
+- Review kind and actual GitHub comment/review URL:
+- Commands run and actual results; checks not run and why:
+- Findings and unresolved prior-day issues:
 
-## Checks run
-- [ ] npm run verify
-- [ ] Manual online/offline check
+## Impact and handoff
 
-## Rollback/recovery
+- Data, privacy, offline and accessibility impact:
+- docs/days report and next-day prerequisites:
+
+Use draft for unverified changes. Self-review is not independent approval.
