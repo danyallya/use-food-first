@@ -18,4 +18,4 @@ The technical shell exists; the product workflow does not. Build the first safe,
 
 ## Status
 
-Not started. Use food/001-food-first. After acceptance passes, update progress and set the next task.
+FOOD-FIRST-001 and FOOD-FIRST-002 are implemented on the Day 1 feature branch and await PR review and merge. The next task is FOOD-FIRST-003, PostgreSQL migrations and repository tests.

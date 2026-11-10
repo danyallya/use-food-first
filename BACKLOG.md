@@ -1,5 +1,7 @@
 # Backlog
 
+FOOD-FIRST-001 and FOOD-FIRST-002 have a local implementation on the Day 1 feature PR, pending review and merge; their checkboxes remain open until accepted.
+
 Prioritize user risk and evidence over polish. Estimates are focused engineering days for a reviewed MVP and exclude external approvals.
 
 ## P0 — safe foundation
